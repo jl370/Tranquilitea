@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04459CBB2AA97D2D00A63227 /* MindfullnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04459CBA2AA97D2D00A63227 /* MindfullnessView.swift */; };
+		046953282AB94AB1007D9939 /* PromptTyping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046953272AB94AB1007D9939 /* PromptTyping.swift */; };
+		046CCACB2AB54B8F00624C35 /* SquareBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */; };
+		046CCACE2AB54D3E00624C35 /* PastPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACD2AB54D3E00624C35 /* PastPrompts.swift */; };
 		04EAE57A2AA6564400D48F8A /* TranquiliteaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */; };
 		04EAE57C2AA6564400D48F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE57B2AA6564400D48F8A /* ContentView.swift */; };
 		04EAE57E2AA6564800D48F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE57D2AA6564800D48F8A /* Assets.xcassets */; };
@@ -16,6 +20,11 @@
 		04EAE5902AA6564800D48F8A /* TranquiliteaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE58F2AA6564800D48F8A /* TranquiliteaTests.swift */; };
 		04EAE59A2AA6564800D48F8A /* TranquiliteaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE5992AA6564800D48F8A /* TranquiliteaUITests.swift */; };
 		04EAE59C2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE59B2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift */; };
+		04FAFA482AAD6EB400250914 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA472AAD6EB400250914 /* HomeView.swift */; };
+		04FAFA4A2AAD6ED000250914 /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA492AAD6ED000250914 /* ReflectionView.swift */; };
+		04FAFA4C2AAD741E00250914 /* MeditationSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */; };
+		04FAFA502AB00FD000250914 /* GuidedMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */; };
+		04FAFA522AB0105300250914 /* IndependentMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA512AB0105300250914 /* IndependentMeditation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04459CBA2AA97D2D00A63227 /* MindfullnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfullnessView.swift; sourceTree = "<group>"; };
+		046953272AB94AB1007D9939 /* PromptTyping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptTyping.swift; sourceTree = "<group>"; };
+		046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBreathing.swift; sourceTree = "<group>"; };
+		046CCACD2AB54D3E00624C35 /* PastPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPrompts.swift; sourceTree = "<group>"; };
 		04EAE5762AA6564400D48F8A /* Tranquilitea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranquilitea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaApp.swift; sourceTree = "<group>"; };
 		04EAE57B2AA6564400D48F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +61,11 @@
 		04EAE5952AA6564800D48F8A /* TranquiliteaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquiliteaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAE5992AA6564800D48F8A /* TranquiliteaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaUITests.swift; sourceTree = "<group>"; };
 		04EAE59B2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04FAFA472AAD6EB400250914 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04FAFA492AAD6ED000250914 /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
+		04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSelection.swift; sourceTree = "<group>"; };
+		04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedMeditation.swift; sourceTree = "<group>"; };
+		04FAFA512AB0105300250914 /* IndependentMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependentMeditation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046CCAC92AB54B6C00624C35 /* Mindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */,
+			);
+			path = Mindfulness;
+			sourceTree = "<group>";
+		};
+		046CCACC2AB54D0800624C35 /* Prompts */ = {
+			isa = PBXGroup;
+			children = (
+				046CCACD2AB54D3E00624C35 /* PastPrompts.swift */,
+				046953272AB94AB1007D9939 /* PromptTyping.swift */,
+			);
+			path = Prompts;
+			sourceTree = "<group>";
+		};
 		04EAE56D2AA6564400D48F8A = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +133,12 @@
 		04EAE5782AA6564400D48F8A /* Tranquilitea */ = {
 			isa = PBXGroup;
 			children = (
+				04FAFA4D2AAD757E00250914 /* Main Views */,
+				04FAFA4E2AAD75BE00250914 /* Sub Views */,
 				04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */,
-				04EAE57B2AA6564400D48F8A /* ContentView.swift */,
-				04EAE57D2AA6564800D48F8A /* Assets.xcassets */,
 				04EAE5822AA6564800D48F8A /* Persistence.swift */,
 				04EAE5842AA6564800D48F8A /* Tranquilitea.xcdatamodeld */,
+				04EAE57D2AA6564800D48F8A /* Assets.xcassets */,
 				04EAE57F2AA6564800D48F8A /* Preview Content */,
 			);
 			path = Tranquilitea;
@@ -131,6 +167,37 @@
 				04EAE59B2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift */,
 			);
 			path = TranquiliteaUITests;
+			sourceTree = "<group>";
+		};
+		04FAFA4D2AAD757E00250914 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE57B2AA6564400D48F8A /* ContentView.swift */,
+				04FAFA472AAD6EB400250914 /* HomeView.swift */,
+				04459CBA2AA97D2D00A63227 /* MindfullnessView.swift */,
+				04FAFA492AAD6ED000250914 /* ReflectionView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		04FAFA4E2AAD75BE00250914 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				046CCACC2AB54D0800624C35 /* Prompts */,
+				046CCAC92AB54B6C00624C35 /* Mindfulness */,
+				04FAFA532AB0106100250914 /* Meditation */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		04FAFA532AB0106100250914 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */,
+				04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */,
+				04FAFA512AB0105300250914 /* IndependentMeditation.swift */,
+			);
+			path = Meditation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FAFA4C2AAD741E00250914 /* MeditationSelection.swift in Sources */,
 				04EAE5862AA6564800D48F8A /* Tranquilitea.xcdatamodeld in Sources */,
+				04FAFA4A2AAD6ED000250914 /* ReflectionView.swift in Sources */,
 				04EAE5832AA6564800D48F8A /* Persistence.swift in Sources */,
+				046953282AB94AB1007D9939 /* PromptTyping.swift in Sources */,
+				046CCACB2AB54B8F00624C35 /* SquareBreathing.swift in Sources */,
 				04EAE57C2AA6564400D48F8A /* ContentView.swift in Sources */,
+				04FAFA522AB0105300250914 /* IndependentMeditation.swift in Sources */,
+				04FAFA502AB00FD000250914 /* GuidedMeditation.swift in Sources */,
+				04FAFA482AAD6EB400250914 /* HomeView.swift in Sources */,
+				046CCACE2AB54D3E00624C35 /* PastPrompts.swift in Sources */,
 				04EAE57A2AA6564400D48F8A /* TranquiliteaApp.swift in Sources */,
+				04459CBB2AA97D2D00A63227 /* MindfullnessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

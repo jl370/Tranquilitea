@@ -31,17 +31,6 @@ struct MindfullnessView: View {
                     Text("Navigate Button")
                 }
                 
-                    
-                           
-                           /*NavigationLink(destination: PromptTyping(item: newItem), isActive: $isActive){
-                               Button {
-                                   newItem = addItem(prompt1: prompts)
-                                   isActive = false
-                               } label: {
-                                   Text("testing")
-                               }
-                           }*/
-                           
                 Spacer()
                 Divider()
             }

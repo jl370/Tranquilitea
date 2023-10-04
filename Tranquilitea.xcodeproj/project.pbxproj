@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		04459CBB2AA97D2D00A63227 /* MindfullnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04459CBA2AA97D2D00A63227 /* MindfullnessView.swift */; };
+		046479522ACBB08F00E7C4CC /* AffirmationSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046479512ACBB08F00E7C4CC /* AffirmationSelection.swift */; };
+		046479542ACBB09E00E7C4CC /* AffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046479532ACBB09E00E7C4CC /* AffirmationView.swift */; };
+		046479562ACBB0BD00E7C4CC /* PromptSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046479552ACBB0BD00E7C4CC /* PromptSelection.swift */; };
+		046479582ACBB0E000E7C4CC /* JournalSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046479572ACBB0E000E7C4CC /* JournalSelection.swift */; };
+		0464795A2ACBB16D00E7C4CC /* FocusBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046479592ACBB16D00E7C4CC /* FocusBreathing.swift */; };
+		046479652ACBB2E100E7C4CC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0464795C2ACBB2DA00E7C4CC /* Inter-Bold.ttf */; };
+		046479662ACBB2E100E7C4CC /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0464795D2ACBB2DB00E7C4CC /* Inter-ExtraBold.ttf */; };
+		046479672ACBB2E100E7C4CC /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0464795E2ACBB2DC00E7C4CC /* Inter-Thin.ttf */; };
+		046479682ACBB2E100E7C4CC /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0464795F2ACBB2DD00E7C4CC /* Inter-Light.ttf */; };
+		046479692ACBB2E100E7C4CC /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046479602ACBB2DD00E7C4CC /* Inter-ExtraLight.ttf */; };
+		0464796A2ACBB2E100E7C4CC /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046479612ACBB2DE00E7C4CC /* Inter-Black.ttf */; };
+		0464796B2ACBB2E100E7C4CC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046479622ACBB2DF00E7C4CC /* Inter-Regular.ttf */; };
+		0464796C2ACBB2E100E7C4CC /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046479632ACBB2E000E7C4CC /* Inter-Medium.ttf */; };
+		0464796D2ACBB2E100E7C4CC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046479642ACBB2E100E7C4CC /* Inter-SemiBold.ttf */; };
 		046953282AB94AB1007D9939 /* PromptTyping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046953272AB94AB1007D9939 /* PromptTyping.swift */; };
 		046CCACB2AB54B8F00624C35 /* SquareBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */; };
 		046CCACE2AB54D3E00624C35 /* PastPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACD2AB54D3E00624C35 /* PastPrompts.swift */; };
+		0479E60E2ACD0A4900C2696C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479E60D2ACD0A4900C2696C /* Constants.swift */; };
 		04EAE57A2AA6564400D48F8A /* TranquiliteaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */; };
 		04EAE57C2AA6564400D48F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE57B2AA6564400D48F8A /* ContentView.swift */; };
 		04EAE57E2AA6564800D48F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE57D2AA6564800D48F8A /* Assets.xcassets */; };
@@ -22,7 +37,6 @@
 		04EAE59C2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE59B2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift */; };
 		04FAFA482AAD6EB400250914 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA472AAD6EB400250914 /* HomeView.swift */; };
 		04FAFA4A2AAD6ED000250914 /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA492AAD6ED000250914 /* ReflectionView.swift */; };
-		04FAFA4C2AAD741E00250914 /* MeditationSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */; };
 		04FAFA502AB00FD000250914 /* GuidedMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */; };
 		04FAFA522AB0105300250914 /* IndependentMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAFA512AB0105300250914 /* IndependentMeditation.swift */; };
 /* End PBXBuildFile section */
@@ -46,9 +60,25 @@
 
 /* Begin PBXFileReference section */
 		04459CBA2AA97D2D00A63227 /* MindfullnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfullnessView.swift; sourceTree = "<group>"; };
+		046479512ACBB08F00E7C4CC /* AffirmationSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationSelection.swift; sourceTree = "<group>"; };
+		046479532ACBB09E00E7C4CC /* AffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationView.swift; sourceTree = "<group>"; };
+		046479552ACBB0BD00E7C4CC /* PromptSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptSelection.swift; sourceTree = "<group>"; };
+		046479572ACBB0E000E7C4CC /* JournalSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSelection.swift; sourceTree = "<group>"; };
+		046479592ACBB16D00E7C4CC /* FocusBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBreathing.swift; sourceTree = "<group>"; };
+		0464795C2ACBB2DA00E7C4CC /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		0464795D2ACBB2DB00E7C4CC /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0464795E2ACBB2DC00E7C4CC /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		0464795F2ACBB2DD00E7C4CC /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		046479602ACBB2DD00E7C4CC /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		046479612ACBB2DE00E7C4CC /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		046479622ACBB2DF00E7C4CC /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		046479632ACBB2E000E7C4CC /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		046479642ACBB2E100E7C4CC /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0464796E2ACBB40200E7C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		046953272AB94AB1007D9939 /* PromptTyping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptTyping.swift; sourceTree = "<group>"; };
 		046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBreathing.swift; sourceTree = "<group>"; };
 		046CCACD2AB54D3E00624C35 /* PastPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPrompts.swift; sourceTree = "<group>"; };
+		0479E60D2ACD0A4900C2696C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04EAE5762AA6564400D48F8A /* Tranquilitea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranquilitea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaApp.swift; sourceTree = "<group>"; };
 		04EAE57B2AA6564400D48F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,7 +93,6 @@
 		04EAE59B2AA6564800D48F8A /* TranquiliteaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04FAFA472AAD6EB400250914 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		04FAFA492AAD6ED000250914 /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
-		04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSelection.swift; sourceTree = "<group>"; };
 		04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedMeditation.swift; sourceTree = "<group>"; };
 		04FAFA512AB0105300250914 /* IndependentMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependentMeditation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,21 +122,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		046CCAC92AB54B6C00624C35 /* Mindfulness */ = {
+		046479502ACBB06800E7C4CC /* Affirmation */ = {
+			isa = PBXGroup;
+			children = (
+				046479512ACBB08F00E7C4CC /* AffirmationSelection.swift */,
+				046479532ACBB09E00E7C4CC /* AffirmationView.swift */,
+			);
+			path = Affirmation;
+			sourceTree = "<group>";
+		};
+		0464795B2ACBB29400E7C4CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				046479612ACBB2DE00E7C4CC /* Inter-Black.ttf */,
+				0464795C2ACBB2DA00E7C4CC /* Inter-Bold.ttf */,
+				0464795D2ACBB2DB00E7C4CC /* Inter-ExtraBold.ttf */,
+				046479602ACBB2DD00E7C4CC /* Inter-ExtraLight.ttf */,
+				0464795F2ACBB2DD00E7C4CC /* Inter-Light.ttf */,
+				046479632ACBB2E000E7C4CC /* Inter-Medium.ttf */,
+				046479622ACBB2DF00E7C4CC /* Inter-Regular.ttf */,
+				046479642ACBB2E100E7C4CC /* Inter-SemiBold.ttf */,
+				0464795E2ACBB2DC00E7C4CC /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		046CCAC92AB54B6C00624C35 /* Breathing */ = {
 			isa = PBXGroup;
 			children = (
 				046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */,
+				046479592ACBB16D00E7C4CC /* FocusBreathing.swift */,
 			);
-			path = Mindfulness;
+			path = Breathing;
 			sourceTree = "<group>";
 		};
-		046CCACC2AB54D0800624C35 /* Prompts */ = {
+		046CCACC2AB54D0800624C35 /* Prompts and Journal */ = {
 			isa = PBXGroup;
 			children = (
-				046CCACD2AB54D3E00624C35 /* PastPrompts.swift */,
+				046479552ACBB0BD00E7C4CC /* PromptSelection.swift */,
+				046479572ACBB0E000E7C4CC /* JournalSelection.swift */,
 				046953272AB94AB1007D9939 /* PromptTyping.swift */,
+				046CCACD2AB54D3E00624C35 /* PastPrompts.swift */,
 			);
-			path = Prompts;
+			path = "Prompts and Journal";
 			sourceTree = "<group>";
 		};
 		04EAE56D2AA6564400D48F8A = {
@@ -137,8 +194,11 @@
 				04FAFA4E2AAD75BE00250914 /* Sub Views */,
 				04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */,
 				04EAE5822AA6564800D48F8A /* Persistence.swift */,
+				0479E60D2ACD0A4900C2696C /* Constants.swift */,
+				0464796E2ACBB40200E7C4CC /* Info.plist */,
 				04EAE5842AA6564800D48F8A /* Tranquilitea.xcdatamodeld */,
 				04EAE57D2AA6564800D48F8A /* Assets.xcassets */,
+				0464795B2ACBB29400E7C4CC /* Fonts */,
 				04EAE57F2AA6564800D48F8A /* Preview Content */,
 			);
 			path = Tranquilitea;
@@ -183,9 +243,10 @@
 		04FAFA4E2AAD75BE00250914 /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
-				046CCACC2AB54D0800624C35 /* Prompts */,
-				046CCAC92AB54B6C00624C35 /* Mindfulness */,
 				04FAFA532AB0106100250914 /* Meditation */,
+				046CCAC92AB54B6C00624C35 /* Breathing */,
+				046479502ACBB06800E7C4CC /* Affirmation */,
+				046CCACC2AB54D0800624C35 /* Prompts and Journal */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -193,7 +254,6 @@
 		04FAFA532AB0106100250914 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
-				04FAFA4B2AAD741E00250914 /* MeditationSelection.swift */,
 				04FAFA4F2AB00FD000250914 /* GuidedMeditation.swift */,
 				04FAFA512AB0105300250914 /* IndependentMeditation.swift */,
 			);
@@ -304,8 +364,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046479652ACBB2E100E7C4CC /* Inter-Bold.ttf in Resources */,
+				0464796B2ACBB2E100E7C4CC /* Inter-Regular.ttf in Resources */,
 				04EAE5812AA6564800D48F8A /* Preview Assets.xcassets in Resources */,
+				0464796D2ACBB2E100E7C4CC /* Inter-SemiBold.ttf in Resources */,
 				04EAE57E2AA6564800D48F8A /* Assets.xcassets in Resources */,
+				046479692ACBB2E100E7C4CC /* Inter-ExtraLight.ttf in Resources */,
+				046479672ACBB2E100E7C4CC /* Inter-Thin.ttf in Resources */,
+				046479682ACBB2E100E7C4CC /* Inter-Light.ttf in Resources */,
+				046479662ACBB2E100E7C4CC /* Inter-ExtraBold.ttf in Resources */,
+				0464796C2ACBB2E100E7C4CC /* Inter-Medium.ttf in Resources */,
+				0464796A2ACBB2E100E7C4CC /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,19 +399,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FAFA4C2AAD741E00250914 /* MeditationSelection.swift in Sources */,
+				046479542ACBB09E00E7C4CC /* AffirmationView.swift in Sources */,
 				04EAE5862AA6564800D48F8A /* Tranquilitea.xcdatamodeld in Sources */,
 				04FAFA4A2AAD6ED000250914 /* ReflectionView.swift in Sources */,
+				0464795A2ACBB16D00E7C4CC /* FocusBreathing.swift in Sources */,
+				046479522ACBB08F00E7C4CC /* AffirmationSelection.swift in Sources */,
 				04EAE5832AA6564800D48F8A /* Persistence.swift in Sources */,
 				046953282AB94AB1007D9939 /* PromptTyping.swift in Sources */,
 				046CCACB2AB54B8F00624C35 /* SquareBreathing.swift in Sources */,
+				046479562ACBB0BD00E7C4CC /* PromptSelection.swift in Sources */,
 				04EAE57C2AA6564400D48F8A /* ContentView.swift in Sources */,
 				04FAFA522AB0105300250914 /* IndependentMeditation.swift in Sources */,
 				04FAFA502AB00FD000250914 /* GuidedMeditation.swift in Sources */,
 				04FAFA482AAD6EB400250914 /* HomeView.swift in Sources */,
 				046CCACE2AB54D3E00624C35 /* PastPrompts.swift in Sources */,
 				04EAE57A2AA6564400D48F8A /* TranquiliteaApp.swift in Sources */,
+				046479582ACBB0E000E7C4CC /* JournalSelection.swift in Sources */,
 				04459CBB2AA97D2D00A63227 /* MindfullnessView.swift in Sources */,
+				0479E60E2ACD0A4900C2696C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +578,7 @@
 				DEVELOPMENT_TEAM = 82ZN5648K5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tranquilitea/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -533,6 +608,7 @@
 				DEVELOPMENT_TEAM = 82ZN5648K5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tranquilitea/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

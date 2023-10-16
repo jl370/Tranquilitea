@@ -26,6 +26,10 @@ struct ReflectionView: View {
                                     .padding([.top, .leading, .trailing])
                                     .foregroundColor(.white)
                                     .font(.custom("Inter-Regular", size: 30.0))
+                                Image("Affirmations")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 70)
                             }
                         }
                     }
@@ -41,6 +45,10 @@ struct ReflectionView: View {
                                     .padding([.top, .leading, .trailing])
                                     .foregroundColor(.white)
                                     .font(.custom("Inter-Regular", size: 30.0))
+                                Image("Prompts")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 70)
                             }
                         }
                     }
@@ -56,6 +64,10 @@ struct ReflectionView: View {
                                     .padding([.top, .leading, .trailing])
                                     .foregroundColor(.white)
                                     .font(.custom("Inter-Regular", size: 30.0))
+                                Image("Journal")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 70)
                             }
                         }
                     }

@@ -18,23 +18,26 @@ struct PromptTyping: View {
         VStack {
             Text(item.prompt ?? "Prompt")
                 .padding(.top, 40.0)
-            Color(UIColor.systemGray4)
-                .frame(width: 200, height: 2)
+                .font(.custom("Inter-Regular", size: 17.0))
+                .multilineTextAlignment(.center)
+            Color("Light Green")
+                .frame(width: 300, height: 2)
             ScrollView {
                 ZStack {
                     VStack {
                         TextEditor(text: $item.entry.toUnwrapped(defaultValue: ""))
                             .lineLimit(1...)
                             .padding()
-                            .lineSpacing(20)
+                            .lineSpacing(21)
+                            .font(.custom("Inter-Regular", size: 17.0))
                         Spacer()
                     }
                     VStack {
-                        Color(UIColor.systemGray4)
+                        Color("Light Green")
                             .frame(height: 2)
                             .padding(.top, 49)
                         ForEach(1...30, id: \.self) {_ in
-                            Color(UIColor.systemGray4)
+                            Color("Light Green")
                                 .frame(height: 2)
                                 .padding(.top, 32)
                         }
@@ -43,12 +46,11 @@ struct PromptTyping: View {
                     .padding(.horizontal)
                 }
             }
-            Text(String(lineCount(address)))
         }
     }
 }
 
-func lineCount(_ str: String) -> Int {
+/*func lineCount(_ str: String) -> Int {
     var count = 0
     for acsiiValue in str.utf8 {
         if acsiiValue == 10 {
@@ -56,7 +58,7 @@ func lineCount(_ str: String) -> Int {
         }
     }
     return count
-}
+}*/
 
 extension Binding {
      func toUnwrapped<T>(defaultValue: T) -> Binding<T> where Value == Optional<T>  {

@@ -14,6 +14,22 @@ struct ReflectionView: View {
                 Color("Green White").ignoresSafeArea(edges: .top)
                 VStack {
                     Spacer()
+                    HStack {
+                        Image("border")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 80)
+                        Spacer()
+                        Image("border")
+                            .resizable()
+                            .scaledToFit()
+                            .scaleEffect(x: -1, y: 1)
+                            .frame(height: 80)
+                    }
+                }
+                VStack {
+                    Spacer()
+                        .frame(height: 45)
                     
                     NavigationLink(destination: AffirmationSelection()) {
                         ZStack{

@@ -26,6 +26,7 @@
 		046CCACB2AB54B8F00624C35 /* SquareBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */; };
 		046CCACE2AB54D3E00624C35 /* PastPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CCACD2AB54D3E00624C35 /* PastPrompts.swift */; };
 		0479E60E2ACD0A4900C2696C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479E60D2ACD0A4900C2696C /* Constants.swift */; };
+		04A5B7D22AEDEC4B0049DAE7 /* guidedMeditation1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B7D12AEDEC4B0049DAE7 /* guidedMeditation1.mp3 */; };
 		04EAE57A2AA6564400D48F8A /* TranquiliteaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */; };
 		04EAE57C2AA6564400D48F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE57B2AA6564400D48F8A /* ContentView.swift */; };
 		04EAE57E2AA6564800D48F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE57D2AA6564800D48F8A /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		046CCACA2AB54B8F00624C35 /* SquareBreathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBreathing.swift; sourceTree = "<group>"; };
 		046CCACD2AB54D3E00624C35 /* PastPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPrompts.swift; sourceTree = "<group>"; };
 		0479E60D2ACD0A4900C2696C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A5B7D12AEDEC4B0049DAE7 /* guidedMeditation1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedMeditation1.mp3; sourceTree = "<group>"; };
 		04EAE5762AA6564400D48F8A /* Tranquilitea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranquilitea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAE5792AA6564400D48F8A /* TranquiliteaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiliteaApp.swift; sourceTree = "<group>"; };
 		04EAE57B2AA6564400D48F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				0464796E2ACBB40200E7C4CC /* Info.plist */,
 				04EAE5842AA6564800D48F8A /* Tranquilitea.xcdatamodeld */,
 				04EAE57D2AA6564800D48F8A /* Assets.xcassets */,
+				04A5B7D12AEDEC4B0049DAE7 /* guidedMeditation1.mp3 */,
 				0464795B2ACBB29400E7C4CC /* Fonts */,
 				04EAE57F2AA6564800D48F8A /* Preview Content */,
 			);
@@ -372,6 +375,7 @@
 				046479692ACBB2E100E7C4CC /* Inter-ExtraLight.ttf in Resources */,
 				046479672ACBB2E100E7C4CC /* Inter-Thin.ttf in Resources */,
 				046479682ACBB2E100E7C4CC /* Inter-Light.ttf in Resources */,
+				04A5B7D22AEDEC4B0049DAE7 /* guidedMeditation1.mp3 in Resources */,
 				046479662ACBB2E100E7C4CC /* Inter-ExtraBold.ttf in Resources */,
 				0464796C2ACBB2E100E7C4CC /* Inter-Medium.ttf in Resources */,
 				0464796A2ACBB2E100E7C4CC /* Inter-Black.ttf in Resources */,

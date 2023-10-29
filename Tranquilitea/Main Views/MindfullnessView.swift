@@ -9,62 +9,121 @@ import SwiftUI
 import CoreData
 
 struct MindfullnessView: View {
-    
-    @Environment(\.managedObjectContext) private var viewContext
-    @State var prompts = "temp"
-    @State var isActive = false
-    @State var newItem : Item?
-    
     var body: some View {
         NavigationStack {
-            VStack {
-                Spacer()
-                Text("not Hello, World!")
-                NavigationLink(destination: PastPrompts()) {
-                    Text("oui")
+            ZStack{
+                Color("Green White")
+                    .ignoresSafeArea(edges: .top)
+                VStack {
+                    Spacer()
+                    HStack {
+                        Image("border")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 80)
+                        Spacer()
+                        Image("border")
+                            .resizable()
+                            .scaledToFit()
+                            .scaleEffect(x: -1, y: 1)
+                            .frame(height: 80)
+                    }
                 }
-            
-                Button {
-                    newItem = addItem(prompt1: prompts)
-                    isActive = true
-                } label: {
-                    Text("Navigate Button")
-                }
-                
-                Spacer()
-                Divider()
-            }
-            .navigationDestination(isPresented: $isActive) {
-                if isActive {
-                    PromptTyping(item: newItem!)
-                } else {
-                    MindfullnessView()
+                VStack {
+                    Spacer()
+                        .frame(height: 50)
+                    
+                    Text("Meditation")
+                        .foregroundStyle(.black)
+                        .padding()
+                        .font(.custom("Inter-Regular", size: 30))
+                        .background(RoundedRectangle(cornerRadius: 30)
+                            .stroke(lineWidth: 5.0)
+                            .padding()
+                            .frame(width: 310, height: 90)
+                            .foregroundColor(Color("Dark Green")))
+                    
+                    HStack {
+                        NavigationLink(destination: GuidedMeditation()){
+                            Text("Guided Meditation")
+                                .foregroundStyle(.white)
+                                .padding()
+                                .frame(width: 170)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("Inter-Regular", size: 23))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .frame(width: 160, height: 160)
+                                    .padding()
+                                    .foregroundColor(Color("Light Green")))
+                        }
+                        
+                        NavigationLink(destination: IndependentMeditation()){
+                            Text("Independent Meditation")
+                                .foregroundStyle(.white)
+                                .padding()
+                                .frame(width: 170)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("Inter-Regular", size: 23))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .frame(width: 160, height: 160)
+                                    .padding()
+                                    .foregroundColor(Color("Light Green")))
+                        }
+                    }
+                    .padding(.vertical, 50)
+                    
+                    Spacer()
+                        .frame(height: 40)
+                    
+                    Text("Breathe")
+                        .foregroundStyle(.black)
+                        .padding()
+                        .font(.custom("Inter-Regular", size: 30))
+                        .background(RoundedRectangle(cornerRadius: 30)
+                            .stroke(lineWidth: 5.0)
+                            .padding()
+                            .frame(width: 310, height: 90)
+                            .foregroundColor(Color("Dark Green")))
+                    
+                    HStack {
+                        NavigationLink(destination: SquareBreathing()){
+                            Text("Box Breathing")
+                                .foregroundStyle(.white)
+                                .padding()
+                                .frame(width: 170)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("Inter-Regular", size: 23))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .frame(width: 160, height: 160)
+                                    .padding()
+                                    .foregroundColor(Color("Light Green")))
+                        }
+                        
+                        NavigationLink(destination: FocusBreathing()){  
+                            Text("Focus Breathing")
+                                .foregroundStyle(.white)
+                                .padding()
+                                .frame(width: 170)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("Inter-Regular", size: 23))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .frame(width: 160, height: 160)
+                                    .padding()
+                                    .foregroundColor(Color("Light Green")))
+                        }
+                    }
+                    .padding(.vertical, 50)
+                    
+                    Spacer()
+                    Divider()
                 }
             }
         }
-    }
-
-    private func addItem(prompt1: String) -> Item {
-        let newItem = Item(context: viewContext)
-        newItem.prompt = prompt1
-        newItem.entry = ""
-        newItem.timestamp = Date()
-        
-        do {
-            try viewContext.save()
-        } catch {
-            // Replace this implementation with code to handle the error appropriately.
-            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-            let nsError = error as NSError
-            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-        }
-        
-        return newItem
     }
 }
     
-/*struct MindfullnessView_Previews: PreviewProvider {
+struct MindfullnessView_Previews: PreviewProvider {
     static var previews: some View {
         MindfullnessView()
     }
-}*/
+}

@@ -17,17 +17,26 @@ struct JournalSelection: View {
         NavigationStack {
             ZStack {
                 Color("Green White").ignoresSafeArea(edges: .top)
+                Image("lantern")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 230)
+                    .position(x: 350, y: 15)
                 VStack {
                     Spacer()
-                    
-                    
+                    Image("table")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 300)
+                }
+                VStack {
                     Text("Journal")
                         .foregroundStyle(.white)
-                        //.padding(.top, 40)
+                        .padding(.top, 40)
                         .font(.custom("Inter-Regular", size: 35))
                         .background(RoundedRectangle(cornerRadius: 30)
-                            //.padding(.top, 40)
-                            .frame(width: 310, height: 80)
+                            .padding(.top, 40)
+                            .frame(width: 310, height: 120)
                             .foregroundColor(Color("Light Green")))
             
                     
@@ -53,7 +62,7 @@ struct JournalSelection: View {
                             .font(.custom("Inter-Regular", size: 28))
                             .background(RoundedRectangle(cornerRadius: 30)
                                 .stroke(lineWidth: 5.0)
-                                .padding(.horizontal)
+                                .padding(.top, 100)
                                 .frame(width: 310, height: 180)
                                 .foregroundColor(Color("Dark Green")))
                     }

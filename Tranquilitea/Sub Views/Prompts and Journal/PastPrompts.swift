@@ -35,10 +35,10 @@ struct PastPrompts: View {
                             
                         }
                         .onDelete(perform: deleteItems)
-                        .overlay(RoundedRectangle(cornerRadius: 10, style: .circular)
-                            .stroke(Color("Dark Green"))
-                            .frame(width: 350)
-                            .padding())
+                        //.overlay(RoundedRectangle(cornerRadius: 10, style: .circular)
+                            //.stroke(Color("Dark Green"))
+                            //.frame(width: 350)
+                            //.padding())
                     }
                     .background(Color("Green White"))
                     .scrollContentBackground(.hidden)

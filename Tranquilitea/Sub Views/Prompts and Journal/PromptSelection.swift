@@ -17,9 +17,18 @@ struct PromptSelection: View {
         NavigationStack {
             ZStack {
                 Color("Green White").ignoresSafeArea(edges: .top)
+                Image("lantern")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 230)
+                    .position(x: 350, y: 15)
+                Image("plant")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 230)
+                    .position(x: 50, y: 552)
                 VStack {
-                    Spacer()
-                    
+
                     Button {
                         newItem = addItem(prompt1: prompts.randomElement()!.promptName)
                         isActive = true
@@ -32,7 +41,10 @@ struct PromptSelection: View {
                                 .stroke(lineWidth: 5.0)
                                 .padding([.top, .leading, .trailing])
                                 .frame(width: 350, height: 70)
-                                .foregroundColor(Color("Dark Green")))
+                                .foregroundColor(Color("Dark Green"))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .foregroundColor(Color("Green White"))
+                                    .padding([.top, .leading, .trailing])))
                     }
                     
                     Text("OR")
@@ -57,13 +69,15 @@ struct PromptSelection: View {
                                         .font(.custom("Inter-Regular", size: 20))
                                         .background(RoundedRectangle(cornerRadius: 20)
                                             .stroke(lineWidth: 5.0)
-                                            .foregroundColor(Color("Dark Green")))
+                                            .foregroundColor(Color("Dark Green"))
+                                            .background(RoundedRectangle(cornerRadius: 20)
+                                                .foregroundColor(Color("Green White"))))
                                 }
                             }
                             .padding()
                         }
                     }
-                    .frame(height: 400)
+                    .frame(height: 380)
                     
                     Spacer()
                     
@@ -75,8 +89,11 @@ struct PromptSelection: View {
                             .background(RoundedRectangle(cornerRadius: 30)
                                 .stroke(lineWidth: 5.0)
                                 .padding(.horizontal)
-                                .frame(width: 350, height: 70)
-                                .foregroundColor(Color("Dark Green")))
+                                .frame(width: 350, height: 50)
+                                .foregroundColor(Color("Dark Green"))
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .foregroundColor(Color("Green White"))
+                                    .padding(.horizontal)))
                     }
                     
                     Spacer()
